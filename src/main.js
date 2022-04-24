@@ -142,7 +142,7 @@ const addMetadata = (_dna, _edition) => {
     },
     ...extraMetadata,
     attributes: attributesList,
-    
+      
   };
   if (network == NETWORK.sol) {
     tempMetadata = {
